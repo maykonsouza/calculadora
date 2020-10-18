@@ -302,7 +302,12 @@ class App extends Component {
         <Display value={this.state.display}/>
       </div>
 
-      
+      <div className="linha2">
+        <Button text="MC" aoClicar={() => this.handleMem("MC")}/>
+        <Button text="MR" aoClicar={() => this.handleMem("MR")}/>
+        <Button text="M+" aoClicar={() => this.handleMem("M+")}/>
+        <Button text="MS" aoClicar={() => this.handleMem("MS")}/>
+      </div>
 
       <div className="linha3">
         <Button text="7" aoClicar={() => this.handleNum("7")}/>
