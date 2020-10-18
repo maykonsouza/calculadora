@@ -1,4 +1,4 @@
-.App {
+/* .Acpp {
   text-align: center;
 }
 
@@ -35,4 +35,61 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.Calc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
 }
+
+.Calc button {
+  height: 60px;
+  width: 70px;
+  margin: 1px;
+  font-size: 15pt;
+
+}
+.linha1 {
+  grid-row: 1/2;
+  background-color: #d7dadf;
+  width: 281px;
+  height: 80px;
+  padding: 1px;
+  padding-right: 6px;
+  margin: 1px;
+  font-size: 16pt;
+  text-align: right;  
+}
+
+.linha2 {
+  grid-row: 2/3;
+}
+
+.linha3 {
+  grid-row: 3/4;
+}
+
+.linha4 {
+  grid-row: 4/5;
+}
+
+.linha5 {
+  grid-row: 5/6;
+}
+
+.linha6 {
+  grid-row: 6/7;
+}
+
+.linha7 {
+  grid-row: 7/8; 
+}
+
+.linha7 button{
+  width: 286px;
+}
+
+
